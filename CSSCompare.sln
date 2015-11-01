@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSCompare", "CSSCompare\CSSCompare.csproj", "{11D1E1B0-6AAB-4B2E-B804-1FD67F13DBF1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs25
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSSCompare\\CSSCompare.csproj
+		SccProjectName1 = CSSCompare
+		SccLocalPath1 = CSSCompare
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11D1E1B0-6AAB-4B2E-B804-1FD67F13DBF1}.Debug|x86.ActiveCfg = Debug|x86
+		{11D1E1B0-6AAB-4B2E-B804-1FD67F13DBF1}.Debug|x86.Build.0 = Debug|x86
+		{11D1E1B0-6AAB-4B2E-B804-1FD67F13DBF1}.Release|x86.ActiveCfg = Release|x86
+		{11D1E1B0-6AAB-4B2E-B804-1FD67F13DBF1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
