@@ -1,12 +1,17 @@
 CSSCompare
-=============
+==========
 
 CSS Compare is a utility to compare two CSS files and output unique styles. It's useful for exporting customizations and managing stylesheet versions.
 
 Unlike traditional text comparison tools, CSS Compare evaluates individual CSS styles instead of pure text blocks, allowing for net comparisons regardless of where a style may appear in the file. CSS Compare is compatible with all levels of CSS.
 
+Sample Usage
+============
+
+`CSSCompare.exe -v1 C:\customized.css -v2 C:\original.css > C:\difference.css`
+
 Background
-=============
+==========
 
 This project originated when I was working with a highly customized SharePoint 2007 farm. Its CSS files had been directly modified all over the place. Since SharePoint 2010 had new CSS files, I had to extract all styles that were tailored for that site.
 
