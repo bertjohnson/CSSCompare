@@ -19,10 +19,15 @@ This utility allowed me to easily export all of the customizations to one file a
 
 Since it does style-by-style CSS comparisons instead of block-level text comparisons like other tools, it works better than pure text comparison tools.
 
+History
+=======
+
+For previous releases and context, [view this project archive on CodePlex](https://csscompare.codeplex.com/).
+
 License
 =======
 
-Copyright © 2012-2015 [Bert Johnson](https://bertjohnson.com)
+Copyright © 2011-2015 [Bert Johnson](https://bertjohnson.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
