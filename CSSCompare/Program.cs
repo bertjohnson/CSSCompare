@@ -42,10 +42,6 @@ namespace SPBert.CSSCompare
                 }
                 lastArg = arg.ToLower();
             }
-
-            v1file = @"C:\Dropbox\Projects\CSSCompare\CSSCompare\bin\Debug\red-color.css";
-            v2file = @"C:\Dropbox\Projects\CSSCompare\CSSCompare\bin\Debug\blue-color.css";
-
             #endregion Parse Arguments
 
             #region Error Handling
