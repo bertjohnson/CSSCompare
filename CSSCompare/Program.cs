@@ -269,12 +269,18 @@ namespace SPBert.CSSCompare
             int semicolon = currentLine.IndexOf(";");
             while (semicolon > -1 && !string.IsNullOrEmpty(currentLine))
             {
-                // Handle empty lines.
+                // Handle lines starting with a semicolon.
                 if (semicolon == 0) {
                     if (currentLine.Length > 1)
+                    {
                         currentLine = currentLine.Substring(1);
+                        semicolon = currentLine.IndexOf(";");
+                        continue;
+                    }
                     else
+                    {
                         return;
+                    }
                 }
 
                 if (semicolon < currentLine.Length - 1)
